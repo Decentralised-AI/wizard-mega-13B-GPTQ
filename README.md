@@ -18,8 +18,8 @@ It is the result of quantising to 4bit using [GPTQ-for-LLaMa](https://github.com
 
 ## Repositories available
 
-* [4bit GPTQ models for GPU inference](https://huggingface.co/TheBloke/wizard-mega-13B-GPTQ).
-* [4bit and 5bit GGML models for CPU inference](https://huggingface.co/TheBloke/wizard-mega-13B-GGML).
+* [4-bit GPTQ models for GPU inference](https://huggingface.co/TheBloke/wizard-mega-13B-GPTQ).
+* [4-bit, 5-bit 8-bit GGML models for llama.cpp CPU (+CUDA) inference](https://huggingface.co/TheBloke/wizard-mega-13B-GGML).
 * [OpenAccess AI Collective's original float16 HF format repo for GPU inference and further conversions](https://huggingface.co/openaccess-ai-collective/wizard-mega-13b).
 
 ## How to easily download and use this model in text-generation-webui
