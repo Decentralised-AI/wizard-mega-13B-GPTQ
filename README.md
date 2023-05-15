@@ -12,7 +12,7 @@ license: other
 
 # Wizard Mega 13B GPTQ
 
-This repo contains 4bit GPTQ format quantised models of [OpenAccess AI Collective's Wizard Mega 13B](https://huggingface.co/openaccess-ai-collective/wizard-mega-13b/edit/main/README.md).
+This repo contains 4bit GPTQ format quantised models of [OpenAccess AI Collective's Wizard Mega 13B](https://huggingface.co/openaccess-ai-collective/wizard-mega-13b).
 
 It is the result of quantising to 4bit using [GPTQ-for-LLaMa](https://github.com/qwopqwop200/GPTQ-for-LLaMa).
 
