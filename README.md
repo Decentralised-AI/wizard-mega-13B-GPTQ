@@ -38,7 +38,7 @@ Open the text-generation-webui UI as normal.
 
 This will work with all versions of GPTQ-for-LLaMa. It has maximum compatibility.
 
-It was created without `--act-order` to increase quantisation quality, but without group_size so as to reduce VRAM requirements.
+It was created without `--act-order` to ensure compatibility with all UIs out there.
 
 * `wizard-mega-13B-GPTQ-4bit-128g.safetensors`
   * Works with all versions of GPTQ-for-LLaMa code, both Triton and CUDA branches
@@ -46,7 +46,7 @@ It was created without `--act-order` to increase quantisation quality, but witho
   * Parameters: Groupsize = 128. No act-order.
   * Command used to create the GPTQ:
     ```
-    python llama.py /workspace/models/openaccess-ai-collective_wizard-mega-13b c4 --wbits 4 --act-order --true-sequential --groupsize 128  --save_safetensors /workspace/wizard-mega-13b/gptq/wizard-mega-13B-GPTQ-4bit-128g.no-act-order.safetensors
+    python llama.py /workspace/models/openaccess-ai-collective_wizard-mega-13b c4 --wbits 4 --true-sequential --groupsize 128  --save_safetensors /workspace/wizard-mega-13b/gptq/wizard-mega-13B-GPTQ-4bit-128g.no-act-order.safetensors
     ```
 
 
