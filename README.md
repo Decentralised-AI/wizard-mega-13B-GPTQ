@@ -16,6 +16,12 @@ This repo contains 4bit GPTQ format quantised models of [OpenAccess AI Collectiv
 
 It is the result of quantising to 4bit using [GPTQ-for-LLaMa](https://github.com/qwopqwop200/GPTQ-for-LLaMa).
 
+## Repositories available
+
+* [4bit GPTQ models for GPU inference](https://huggingface.co/TheBloke/wizard-mega-13B-GPTQ).
+* [4bit and 5bit GGML models for CPU inference](https://huggingface.co/TheBloke/wizard-mega-13B-GGML).
+* [OpenAccess AI Collective's original float16 HF format repo for GPU inference and further conversions](https://huggingface.co/openaccess-ai-collective/wizard-mega-13b).
+
 ## How to easily download and use this model in text-generation-webui
 
 Open the text-generation-webui UI as normal.
